@@ -87,12 +87,10 @@ export default function App() {
             <li key={song.songName}>
               {" "}
               <div style={{ fontSize: "larger" }}>{song.songName}</div>
-              {/* <hr /> */}
               <div style={{ fontSize: "smaller" }}>
                 {name}
                 {song.singer}
               </div>
-              {/* <hr /> */}
               <div style={{ fontSize: "smaller" }}>{song.rating}</div>
             </li>
           ))}
